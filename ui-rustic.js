@@ -1,9 +1,7 @@
-const HERO='https://images.unsplash.com/photo-1757878082430-46aa38960b06?auto=format&fit=crop&q=82&w=1400';
-
 function enhanceHero(){
  const hero=document.querySelector('.hero'); if(!hero||hero.dataset.rich)return;
- hero.dataset.rich='1'; hero.style.setProperty('--hero-image',`url("${HERO}")`);
- hero.innerHTML='<div class="hero-kicker">LA TAVOLA DI CASA</div><h1>Weekly<br><em>Food Plan</em></h1><p>Good food, thoughtfully planned.</p>';
+ hero.dataset.rich='1';
+ hero.innerHTML='<div class="hero-kicker">LA TAVOLA DI CASA</div><h1>Weekly<br><em>Food Plan</em></h1><p>Simple meals for a healthier, happier family.</p>';
 }
 function enhanceNav(){
  const nav=document.querySelector('#main nav'); if(!nav||nav.querySelector('#moreTab'))return;
@@ -24,10 +22,7 @@ function buildDayStrip(){
 function enhanceMeals(){
  document.querySelectorAll('.day').forEach(day=>{
   const h=day.querySelector('h3'); if(h&&!h.dataset.editorial){h.dataset.editorial='1';const d=new Date(day.dataset.date+'T12:00');h.innerHTML=`<span>${d.toLocaleDateString('en-GB',{weekday:'long'})}</span><em>${d.toLocaleDateString('en-GB',{day:'numeric',month:'long'})}</em>`}
-  day.querySelectorAll('.meal').forEach(meal=>{
-   meal.querySelector('.meal-visual')?.remove();
-   const hint=meal.querySelector('.drag-hint'); if(hint)hint.textContent='Move meal';
-  });
+  day.querySelectorAll('.meal').forEach(meal=>{meal.querySelector('.meal-visual')?.remove();const hint=meal.querySelector('.drag-hint');if(hint)hint.textContent='Move meal';});
  });
 }
 function enhanceWeekNav(){const w=document.querySelector('.weeknav');if(!w||w.dataset.compact)return;w.dataset.compact='1';const p=document.getElementById('period');if(p)p.insertAdjacentHTML('beforebegin','<span class="week-label">THIS WEEK</span>')}
