@@ -36,4 +36,5 @@ function buildDayStrip(){
 }
 function enhanceMeals(){document.querySelectorAll('.day').forEach(day=>{const h=day.querySelector('h3');if(h&&!h.dataset.editorial){h.dataset.editorial='1';const d=new Date(day.dataset.date+'T12:00');h.innerHTML=`<span>${d.toLocaleDateString('en-GB',{weekday:'long'})}</span><em>${d.toLocaleDateString('en-GB',{day:'numeric',month:'long'})}</em>`}day.querySelectorAll('.meal').forEach(meal=>{meal.querySelector('.meal-visual')?.remove();const hint=meal.querySelector('.drag-hint');if(hint)hint.textContent='Move meal'})})}
 function enhance(){applyCanonicalArtwork();enhanceHero();enhanceTopTabs();enhanceNav();buildDayStrip();enhanceMeals()}
-const observer=new MutationObserver(()=>requestAnimationFrame(enhance));function start(){enhance();const week=document.getElementById('week');if(week)observer.observe(week,{childList:true,subtree:true})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+const observer=new MutationObserver(()=>requestAnimationFrame(enhance));function start(){enhance();const week=document.getElementById('week');if(week)observer.observe(week,{childList:true,subtree:true});import('./move-ui.js?v=703bdf79')}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
