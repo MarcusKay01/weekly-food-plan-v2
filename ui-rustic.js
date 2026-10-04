@@ -1,3 +1,8 @@
+function applyCanonicalArtwork(){
+ if(document.getElementById('rusticArtworkVars'))return;
+ const link=document.createElement('link');link.id='rusticArtworkVars';link.rel='stylesheet';link.href='./assets/rustic-background-reference.css?v=29d5c8fa';document.head.appendChild(link);
+ const style=document.createElement('style');style.textContent=`body{background-color:#F6EFE4!important;background-image:var(--rustic-art)!important;background-size:cover!important;background-position:top center!important;background-attachment:fixed!important;background-repeat:no-repeat!important}.app{background:rgba(246,239,228,.12)!important;min-height:100vh}.top-tabs{background:rgba(246,239,228,.76)!important;backdrop-filter:blur(3px)}.day-strip{background:rgba(246,239,228,.12)!important}.meal{background:rgba(246,239,228,.28)!important}nav{background:rgba(246,239,228,.90)!important;backdrop-filter:blur(10px)}`;document.head.appendChild(style);
+}
 function enhanceHero(){
  const hero=document.querySelector('.hero'); if(!hero||hero.dataset.rich)return;
  hero.dataset.rich='1';
@@ -28,5 +33,5 @@ function buildDayStrip(){
  strip.querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>{strip.querySelectorAll('.day-chip').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelector(`.day[data-date="${b.dataset.jump}"]`)?.scrollIntoView({behavior:'smooth',block:'start'})});
 }
 function enhanceMeals(){document.querySelectorAll('.day').forEach(day=>{const h=day.querySelector('h3');if(h&&!h.dataset.editorial){h.dataset.editorial='1';const d=new Date(day.dataset.date+'T12:00');h.innerHTML=`<span>${d.toLocaleDateString('en-GB',{weekday:'long'})}</span><em>${d.toLocaleDateString('en-GB',{day:'numeric',month:'long'})}</em>`}day.querySelectorAll('.meal').forEach(meal=>{meal.querySelector('.meal-visual')?.remove();const hint=meal.querySelector('.drag-hint');if(hint)hint.textContent='Move meal'})})}
-function enhance(){enhanceHero();enhanceTopTabs();enhanceNav();buildDayStrip();enhanceMeals()}
+function enhance(){applyCanonicalArtwork();enhanceHero();enhanceTopTabs();enhanceNav();buildDayStrip();enhanceMeals()}
 const observer=new MutationObserver(()=>requestAnimationFrame(enhance));function start(){enhance();const week=document.getElementById('week');if(week)observer.observe(week,{childList:true,subtree:true})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
