@@ -1,14 +1,5 @@
 const HERO='https://images.unsplash.com/photo-1757878082430-46aa38960b06?auto=format&fit=crop&q=82&w=1400';
-const PASTA='https://images.unsplash.com/photo-1669109230787-71bdd4699af4?auto=format&fit=crop&q=78&w=700';
-const PIZZA='https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=78&w=700';
-const FOOD='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=78&w=700';
 
-function imageFor(title=''){
- const t=title.toLowerCase();
- if(t.includes('pasta')||t.includes('rigatoni')||t.includes('spaghetti'))return PASTA;
- if(t.includes('pizza')||t.includes('flatbread'))return PIZZA;
- return FOOD;
-}
 function enhanceHero(){
  const hero=document.querySelector('.hero'); if(!hero||hero.dataset.rich)return;
  hero.dataset.rich='1'; hero.style.setProperty('--hero-image',`url("${HERO}")`);
@@ -20,10 +11,7 @@ function enhanceNav(){
  document.getElementById('weekTab').innerHTML='<span class="nav-icon">⌂</span><span>Week</span>';
  document.getElementById('shopTab').innerHTML='<span class="nav-icon">⌑</span><span>Shop</span>';
 }
-function dayParts(day){
- const d=new Date(day.dataset.date+'T12:00');
- return {dow:d.toLocaleDateString('en-GB',{weekday:'short'}).toUpperCase(),num:d.getDate()};
-}
+function dayParts(day){const d=new Date(day.dataset.date+'T12:00');return{dow:d.toLocaleDateString('en-GB',{weekday:'short'}).toUpperCase(),num:d.getDate()}}
 function buildDayStrip(){
  const week=document.getElementById('week'); if(!week)return;
  const days=[...week.querySelectorAll('.day')]; if(!days.length)return;
@@ -37,10 +25,7 @@ function enhanceMeals(){
  document.querySelectorAll('.day').forEach(day=>{
   const h=day.querySelector('h3'); if(h&&!h.dataset.editorial){h.dataset.editorial='1';const d=new Date(day.dataset.date+'T12:00');h.innerHTML=`<span>${d.toLocaleDateString('en-GB',{weekday:'long'})}</span><em>${d.toLocaleDateString('en-GB',{day:'numeric',month:'long'})}</em>`}
   day.querySelectorAll('.meal').forEach(meal=>{
-   if(meal.dataset.rich)return; meal.dataset.rich='1';
-   const title=meal.querySelector('.title')?.textContent||'';
-   const row=meal.querySelector('.row'); if(!row)return;
-   const visual=document.createElement('div'); visual.className='meal-visual'; visual.style.backgroundImage=`url("${imageFor(title)}")`; row.prepend(visual);
+   meal.querySelector('.meal-visual')?.remove();
    const hint=meal.querySelector('.drag-hint'); if(hint)hint.textContent='Move meal';
   });
  });
