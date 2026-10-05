@@ -1,3 +1,4 @@
+import'./week-details.js?v=4045ab08';
 import{createClient}from'https://esm.sh/@supabase/supabase-js@2';
 import{SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY}from'./config.js';
 const dragDb=createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:true,autoRefreshToken:true}});
