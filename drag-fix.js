@@ -8,7 +8,7 @@ let busy=false;
 const sortables=new WeakMap();
 
 function sessionToken(){try{return JSON.parse(localStorage.getItem(AUTH_KEY)||'null')?.access_token||null}catch{return null}}
-function mealType(meal){return meal?.querySelector('.muted')?.textContent?.trim().toLowerCase()||''}
+function mealType(meal){return (meal?.dataset.slot||'').trim().toLowerCase()}
 function inferStatus(meal){return meal.dataset.status|| (meal.classList.contains('done')?'done':'upcoming')}
 function isDinner(meal){return mealType(meal).startsWith('dinner')&&inferStatus(meal)==='upcoming'}
 function renderSkipped(meal){}
