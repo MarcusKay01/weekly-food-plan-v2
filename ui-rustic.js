@@ -11,4 +11,4 @@ function enhance(){applyCanonicalArtwork();enhanceHero();enhanceTopTabs();enhanc
 let queued=false;function scheduleEnhance(){if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;enhance()})}
 const observer=new MutationObserver(scheduleEnhance);function start(){enhance();const week=document.getElementById('week');if(week)observer.observe(week,{childList:true,subtree:true})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
 // Drag is progressive enhancement: core app remains usable if the library is slow/unavailable.
-setTimeout(()=>import('./drag-fix.js?v=pair10').catch(()=>{}),500);
+setTimeout(()=>import('./drag-fix.js?v=pair11').catch(()=>{}),500);
