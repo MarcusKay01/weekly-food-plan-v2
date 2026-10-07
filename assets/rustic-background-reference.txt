@@ -1,1 +1,0 @@
-Background artwork extracted directly from the canonical Rustic Italian V1 design specification supplied by Marcus. This is the implementation source; do not replace with newly generated design imagery.
