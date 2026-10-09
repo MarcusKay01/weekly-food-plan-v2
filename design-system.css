@@ -1,0 +1,49 @@
+/* Shared visual system: keep artwork decorative and every reading surface opaque. */
+:root{--ui-paper:#F6EFE4;--ui-input:#FFFCF7;--ui-line:#D5CABB;--ui-muted:#53594F;--ui-radius:16px}
+body #rusticPageArtwork{background-image:linear-gradient(to bottom,rgba(246,239,228,.66),rgba(246,239,228,.78) 200px,#F6EFE4 620px),url('./assets/rustic-background-v2-mobile.jpg?v=approved6')!important}
+body{background-image:linear-gradient(rgba(246,239,228,.92),rgba(246,239,228,.92)),url('./assets/rustic-stone-continuation-hidpi.png?v=hidpi1')!important}
+body .app{padding-bottom:calc(108px + env(safe-area-inset-bottom))!important}
+body .hero{padding:36px 0 24px!important}
+body .hero h1{font-size:2.75rem!important;line-height:1.04!important}
+body .hero p{font-size:1rem!important;line-height:1.5!important;color:#2E3A35!important}
+body .hero-kicker{color:#94412E!important}
+body .muted,body .meal-copy>.muted,body .meal-meta-live,body .settings-summary small,body .recipe-kicker{color:var(--ui-muted)!important}
+body #week .day,body #boundaryLunch,body #shop,body #morePanel{background:var(--ui-paper)!important;border:1px solid var(--ui-line)!important;border-radius:var(--ui-radius)!important;padding:20px!important;margin:0 0 16px!important;box-shadow:none!important}
+body #shopList,body #moreContent{background:var(--ui-paper)!important;border:0!important;border-radius:0!important;padding:0!important;margin:16px 0 0!important}
+body #shop>h2,body #morePanel>h2{font:600 1.8rem/1.2 'Playfair Display',serif!important;color:#1F4B3F!important;margin:0 0 8px!important}
+body #moreContent h3,body .shopping-section h3,body .recipe-section h3{font:600 1.3rem/1.25 'Playfair Display',serif!important;color:#1F4B3F!important;margin:24px 0 12px!important;padding-bottom:8px!important;border-bottom:2px solid #B5523A!important}
+body #moreContent>h3:first-child{margin-top:20px!important}
+body #moreContent h4{font:600 1.15rem/1.3 'Playfair Display',serif!important;color:#1F4B3F!important;margin:20px 0 12px!important}
+body #week .day h3{padding-bottom:16px!important}
+body .meal-copy .title{font-size:1.05rem!important;line-height:1.45!important}
+body .meal-main{padding:16px 0!important}
+body .meal-copy>.muted{font-size:.7rem!important}
+body .meal-meta-live{font-size:.75rem!important;line-height:1.4!important}
+body .shop label{grid-template-columns:24px minmax(0,1fr) minmax(48px,auto);gap:12px!important;align-items:center;min-height:52px;padding:12px 0!important;border-color:var(--ui-line)!important;line-height:1.4}
+body .shop label>span:last-child{text-align:right;font-family:Inter,system-ui,sans-serif;font-size:.8rem;max-width:100px}
+body .shop-progress{font:400 .8rem/1.5 Inter,system-ui,sans-serif}
+body input:not([type=checkbox]),body select,body textarea,body #essentialRows select,body #essentialCategory{background:var(--ui-input)!important;border:1px solid var(--ui-line)!important;border-radius:10px!important;color:#2E3A35!important;padding:12px!important;min-height:44px;font:400 .9rem/1.4 Inter,system-ui,sans-serif!important}
+body .settings-form label{font:500 .82rem/1.5 Inter,system-ui,sans-serif;gap:6px}
+body button{min-height:44px;font-family:Inter,system-ui,sans-serif!important;font-size:.82rem;font-weight:600!important;border-radius:10px}
+body .complete{min-height:24px!important}
+body button:focus-visible,body input:focus-visible,body select:focus-visible,body textarea:focus-visible,body summary:focus-visible{outline:3px solid #B5523A!important;outline-offset:3px}
+body .more-grid{padding:4px;background:#EDE1D3;border:1px solid var(--ui-line);border-radius:14px;gap:4px;margin:16px 0}
+body .more-grid button{background:transparent!important}
+body .more-grid button.primary{background:#1F4B3F!important;color:#fff!important}
+body .settings-summary div{background:#EDE1D3;border:1px solid var(--ui-line);border-radius:12px;padding:14px}
+body .settings-summary strong{font:600 1.5rem/1.4 'Playfair Display',serif}
+body .settings-person{border-color:var(--ui-line)}
+body .settings-form{gap:14px}
+body .day-strip{background:var(--ui-paper)!important;border:1px solid var(--ui-line)!important;border-radius:16px;padding:4px;height:64px!important;margin-bottom:16px!important}
+body .day-chip{height:54px!important;min-height:44px}
+body .day-chip span{font-size:.62rem!important}
+body .day-chip b{font-size:1.1rem!important}
+body #main nav{background:#F6EFE4!important;border-color:var(--ui-line)!important;backdrop-filter:none!important}
+body .recipe-sheet{background:var(--ui-paper)!important}
+body .recipe-card{background:var(--ui-input);border-color:var(--ui-line)}
+body .recipe-close{min-height:44px!important;width:44px!important;height:44px!important}
+body .status{line-height:1.5}
+body .done{opacity:1!important}
+body .done .meal-copy{opacity:.65}
+@media(max-width:390px){body #week .day,body #shop,body #morePanel{padding:16px!important}body .day h3 span{font-size:1.7rem!important}body .day h3 em{display:block;margin:6px 0 0!important}body .shop label{gap:8px!important}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
