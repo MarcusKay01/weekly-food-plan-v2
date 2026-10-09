@@ -28,7 +28,7 @@ Background contains no live UI or meal information.
 
 ## Product status
 Preserve current meals, linked lunches, recipes, shopping and essentials functionality.
-Budget is a basic estimate view; actual spending and editable family preferences remain unfinished.
+Budget supports weekly targets and manually recorded whole-shop totals. Family supports editable profiles and preferences. Automatic recipe scaling and planning integration remain unfinished.
 These unfinished features must not be represented as complete.
 
 ## Verification
