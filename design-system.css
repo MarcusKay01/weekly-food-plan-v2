@@ -1,7 +1,7 @@
 /* Shared visual system: keep artwork decorative and every reading surface opaque. */
 :root{--ui-paper:#F6EFE4;--ui-input:#FFFCF7;--ui-line:#D5CABB;--ui-muted:#53594F;--ui-radius:16px}
 body #rusticPageArtwork{background-image:linear-gradient(to bottom,rgba(246,239,228,.66),rgba(246,239,228,.78) 200px,#F6EFE4 620px),url('./assets/rustic-background-v2-mobile.jpg?v=approved6')!important}
-body{background-image:linear-gradient(rgba(246,239,228,.92),rgba(246,239,228,.92)),url('./assets/rustic-stone-continuation-hidpi.png?v=hidpi1')!important}
+html body{background-image:linear-gradient(rgba(246,239,228,.92),rgba(246,239,228,.92)),url('./assets/rustic-stone-continuation-hidpi.png?v=hidpi1')!important}
 body .app{padding-bottom:calc(108px + env(safe-area-inset-bottom))!important}
 body .hero{padding:36px 0 24px!important}
 body .hero h1{font-size:2.75rem!important;line-height:1.04!important}
