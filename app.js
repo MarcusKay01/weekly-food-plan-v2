@@ -1,5 +1,5 @@
-import{db}from'./db.js?v=release-44900f4bb3';
-import{esc,localDate,addDays,fmt,dates,check,SECTIONS,allocation,Latest,ruleMatches}from'./shared.js?v=release-44900f4bb3';
+import{db}from'./db.js?v=release-14415c01a8';
+import{esc,localDate,addDays,fmt,dates,check,SECTIONS,allocation,Latest,ruleMatches}from'./shared.js?v=release-14415c01a8';
 const $=id=>document.getElementById(id),latest=new Latest();
 let user=null,weeks=[],currentWeek=null,meals=[],shop=[],members=[],prefs=[],feedback=[],essentials=[],view='week',shopFilter='remaining',dayFocus='',channel=null,booting=null,offline=false;
 const pending=new Set();let refreshTimer;let syncState='Connecting…';
@@ -53,9 +53,9 @@ $('addShopForm').onsubmit=async e=>{e.preventDefault();const f=e.target,button=e
 window.addEventListener('offline',()=>{offline=true;sync('Offline · read only');render()});window.addEventListener('online',()=>refresh());document.addEventListener('visibilitychange',()=>{if(!document.hidden&&user)refresh()});
 window.__foodPlanRefresh=refresh;window.__foodPlanAction=action;
 boot();
-import('./week-details.js?v=release-44900f4bb3').catch(()=>say('Recipe tools could not load. Refresh to retry.',true));
-import('./ui-rustic.js?v=release-44900f4bb3').catch(()=>say('Settings could not load. Refresh to retry.',true));
+import('./week-details.js?v=release-14415c01a8').catch(()=>say('Recipe tools could not load. Refresh to retry.',true));
+import('./ui-rustic.js?v=release-14415c01a8').catch(()=>say('Settings could not load. Refresh to retry.',true));
 
-setTimeout(()=>import('./drag-fix.js?v=release-44900f4bb3').catch(()=>{}),500);
+setTimeout(()=>import('./drag-fix.js?v=release-14415c01a8').catch(()=>{}),500);
 
-if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js?v=release-44900f4bb3").catch(()=>{});
+if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js?v=release-14415c01a8").catch(()=>{});

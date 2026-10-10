@@ -1,4 +1,4 @@
-import{esc,check,money,estimate,fmt,localDate,ruleMatches}from'./shared.js?v=release-44900f4bb3';
+import{esc,check,money,estimate,fmt,localDate,ruleMatches}from'./shared.js?v=release-14415c01a8';
 const state=()=>window.__foodPlanState();
 const action=(key,fn)=>window.__foodPlanAction(key,fn);
 function message(target,text){const el=target.querySelector('[data-message]');if(el)el.textContent=text}

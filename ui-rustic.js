@@ -1,6 +1,6 @@
-import{db}from'./db.js?v=release-44900f4bb3';
-import{esc,check}from'./shared.js?v=release-44900f4bb3';
-import{renderBudget,renderFamily,renderPlanning}from'./more-settings.js?v=release-44900f4bb3';
+import{db}from'./db.js?v=release-14415c01a8';
+import{esc,check}from'./shared.js?v=release-14415c01a8';
+import{renderBudget,renderFamily,renderPlanning}from'./more-settings.js?v=release-14415c01a8';
 const target=document.getElementById('moreContent');let section='home',sequence=0;
 const state=()=>window.__foodPlanState?.();
 async function show(name=section){section=name;const request=++sequence;document.querySelectorAll('[data-more]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.more===name)));const s=state();if(!s?.currentWeek)return;target.textContent='Loading…';try{const detached=document.createElement('div');if(name==='budget')await renderBudget(detached,db,s.currentWeek);else if(name==='family')await renderFamily(detached,db,s.currentWeek);else if(name==='planning')await renderPlanning(detached,db,s);else await home(detached,s);if(request!==sequence)return;target.replaceChildren(detached);}catch(e){if(request===sequence)target.textContent='Could not load this section. '+e.message}}

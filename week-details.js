@@ -1,11 +1,11 @@
-import{db}from'./db.js?v=release-44900f4bb3';
-import{esc,check,allocation,scaledLabel}from'./shared.js?v=release-44900f4bb3';
+import{db}from'./db.js?v=release-14415c01a8';
+import{esc,check,allocation,scaledLabel,scheduleNote}from'./shared.js?v=release-14415c01a8';
 let request=0,returnFocus=null,wakeLock=null,timer=null,activeMeal=null;
 const dialog=document.createElement('dialog');dialog.id='recipeDialog';dialog.className='recipe-sheet';document.body.append(dialog);
 const state=()=>window.__foodPlanState?.();
 function legacyIngredients(recipe){return (recipe.recipe_ingredients||[]).map(label=>{const i=label.indexOf(' — ');return {label:i<0?label:label.slice(0,i),prep:i<0?'':label.slice(i+3)}})}
 async function getMeal(id){const cached=state()?.meals.find(m=>m.id===id);if(cached)return cached;if(state()?.offline)throw new Error('This source recipe is not in the saved offline plan.');return check(await db.from('meals').select('*').eq('id',id).single())}
-function notes(recipe,meal){return [['Flavour',recipe.flavour_note],['For Barney',recipe.child_note],['Storage & reheating',meal.storage_note||recipe.storage_note]].filter(([,t])=>t).map(([h,t])=>`<section class="recipe-card"><h3>${h}</h3><p>${esc(t)}</p></section>`).join('')}
+function notes(recipe,meal){return [['Flavour',recipe.flavour_note],['For Barney',recipe.child_note],['Storage & reheating',scheduleNote(meal.storage_note||recipe.storage_note,meal,state().meals)]].filter(([,t])=>t).map(([h,t])=>`<section class="recipe-card"><h3>${h}</h3><p>${esc(t)}</p></section>`).join('')}
 function cookKey(){return 'cook:'+state()?.user?.id+':'+activeMeal.id+':'+activeMeal.recipe_revision}
 function ticks(){try{return JSON.parse(sessionStorage.getItem(cookKey()))||{}}catch{return {}}}
 function applyTicks(){const saved=ticks();dialog.querySelectorAll('[data-cook-tick]').forEach(x=>{x.checked=!!saved[x.dataset.cookTick];x.closest('li').classList.toggle('cooked',x.checked)})}

@@ -13,3 +13,5 @@ export function ruleMatches(meal,prefs){const hay=(meal.title+' '+(meal.recipe_i
 export function estimate(items){const relevant=items.filter(x=>!x.have_at_home),priced=relevant.filter(x=>x.estimated_cost!=null);return {total:priced.reduce((s,x)=>s+Number(x.estimated_cost),0),priced:priced.length,count:relevant.length,complete:relevant.length>0&&priced.length===relevant.length}}
 export function scaledLabel(label,factor){if(factor===1)return label;return label.replace(/\b(\d+(?:\.\d+)?)(?=\s*(?:kg|g|ml|litres?|tsp|tbsp|cloves?|dry|from stock|$))/g,n=>String(Math.round(Number(n)*factor*100)/100))}
 export class Latest{value=0;next(){return ++this.value}is(n){return n===this.value}}
+
+export function scheduleNote(note,meal,all){const lunch=meal.slot==='lunch'?meal:all.find(x=>x.lunch_package_dinner_id===meal.id);const day=lunch?fmt(lunch.scheduled_date,{weekday:'long',day:'numeric',month:'short'}):'the planned lunch day';return String(note||'').replace(/\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\b/g,day)}

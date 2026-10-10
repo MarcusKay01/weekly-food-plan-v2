@@ -9,3 +9,5 @@ test('render escaping protects titles/messages',()=>assert.equal(esc('<img src=x
 test('older load cannot overwrite the latest request',()=>{const l=new Latest(),a=l.next(),b=l.next();assert.equal(l.is(a),false);assert.equal(l.is(b),true)});
 test('scaling changes ingredient amounts only',()=>{assert.equal(scaledLabel('Chicken thighs 850g',.5),'Chicken thighs 425g');assert.equal(scaledLabel('Bell peppers 3',2),'Bell peppers 6');assert.equal(scaledLabel('Garlic 3 cloves',1.5),'Garlic 4.5 cloves')});
 test('avoid review checks recipe ingredient text',()=>assert.equal(ruleMatches({title:'Chicken rice',recipe_ingredients:['Tahini 1 tbsp']},[{subject:'Tahini',preference_type:'avoid'}]).length,1));
+
+test('storage wording follows actual lunch day',async()=>{const {scheduleNote}=await import('../shared.js');assert.equal(scheduleNote('Pack for Wednesday.',{id:'d',slot:'dinner'},[{lunch_package_dinner_id:'d',scheduled_date:'2026-10-06'}]),'Pack for Tuesday 6 Oct.');});
