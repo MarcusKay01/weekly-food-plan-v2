@@ -1,1 +1,25 @@
-{"name":"Weekly Food Plan","short_name":"Food Plan","start_url":"./","display":"standalone","background_color":"#F6EFE4","theme_color":"#1F4B3F"}
+{
+  "id": "./",
+  "name": "Weekly Food Plan",
+  "short_name": "Food Plan",
+  "description": "Your shared family meals, shopping list and budget.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6EFE4",
+  "theme_color": "#1F4B3F",
+  "icons": [
+    {
+      "src": "./assets/icons/food-plan-v1-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icons/food-plan-v1-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
