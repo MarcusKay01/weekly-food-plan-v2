@@ -1,0 +1,462 @@
+{
+  "note": "Expanded cooking instructions. Quantities retained from current live recipes.",
+  "recipes": [
+    {
+      "id": "da6192fd-fe31-430e-b505-761deda8138e",
+      "key": "fri-dinner",
+      "title": "Crispy fish tacos with charred corn, lime slaw & avocado",
+      "ingredients": [
+        "White fish fillets 500g — check for bones and cut into finger-size strips",
+        "Small tortillas 8 — warm just before serving",
+        "White cabbage 300g — remove tough core and shred very finely",
+        "Frozen sweetcorn 200g from stock — cook from frozen following packet instructions",
+        "Avocado 1 — peel and cut into thin slices",
+        "Tomatoes 200g — dice into 1cm pieces",
+        "Red onion 1 — peel, halve and slice very finely",
+        "Limes 2 — juice; reserve wedges",
+        "Greek yoghurt 150g",
+        "Chipotle paste 1 tbsp",
+        "Breadcrumbs 80g from stock",
+        "Egg 1 — beat in a shallow bowl"
+      ],
+      "method": [
+        "Heat the oven to 200°C fan / 220°C conventional. Line a baking tray. Prepare the slaw and toppings before handling the raw fish.",
+        "Toss the finely shredded cabbage with the juice of 1 lime. Massage briefly with clean hands and leave for 10 minutes to soften. Mix yoghurt with chipotle paste and a little juice from the second lime; keep some plain yoghurt aside for Barney.",
+        "Pat the fish dry and check carefully for bones. Dip each strip in beaten egg, then press into the breadcrumbs on all sides. Arrange on the tray without crowding.",
+        "Bake for about 12–18 minutes, turning carefully halfway if needed, until the crumb is crisp and the fish is opaque and flakes easily. Thick strips may need longer; check the centre is steaming hot.",
+        "Cook the frozen sweetcorn as its packet directs, drain well, then char in a hot non-stick frying pan for 3–5 minutes, stirring occasionally.",
+        "Warm the tortillas in a dry pan for about 20–30 seconds each side, or follow the packet, and keep covered in a clean tea towel.",
+        "Fill tortillas with fish, slaw, corn, avocado, tomato, thin red onion and chipotle yoghurt. Finish with lime. Serve Barney a deconstructed plate with boneless fish, soft tortilla, avocado and suitable small pieces of vegetables; keep chilli sauce separate."
+      ],
+      "originalIngredients": [
+        "White fish fillets 500g",
+        "Small tortillas 8",
+        "White cabbage 300g",
+        "Frozen sweetcorn 200g from stock",
+        "Avocado 1",
+        "Tomatoes 200g",
+        "Red onion 1",
+        "Limes 2",
+        "Greek yoghurt 150g",
+        "Chipotle paste 1 tbsp",
+        "Breadcrumbs 80g from stock",
+        "Egg 1"
+      ],
+      "originalMethod": [
+        "Coat fish in egg and breadcrumbs; bake or shallow-fry until crisp and cooked.",
+        "Char sweetcorn; shred cabbage and dress with lime.",
+        "Mix yoghurt with chipotle and lime.",
+        "Warm tortillas and assemble with fish, slaw, corn, avocado, tomato, onion and sauce."
+      ]
+    },
+    {
+      "id": "79aa5eff-60cf-4e52-8e33-23486c97fa48",
+      "key": "mon-dinner",
+      "title": "Cajun chicken with smoky corn, peppers & lime rice",
+      "ingredients": [
+        "Boneless chicken thighs 850g — leave whole; trim any large pieces of fat",
+        "White rice 320g dry — rinse under cold water",
+        "Bell peppers 3 — deseed and slice into 1cm strips",
+        "Frozen sweetcorn 300g — cook from frozen following the packet instructions",
+        "Red onion 1 — peel, halve and slice into thin wedges",
+        "Tomatoes 250g — dice into 1cm pieces",
+        "Avocados 2 — peel and dice into 1cm pieces just before serving",
+        "Limes 3 — zest 1; juice as needed; cut the remainder into wedges",
+        "Garlic 3 cloves — peel and finely grate or crush",
+        "Cajun seasoning 3 tbsp",
+        "Olive oil 2 tbsp"
+      ],
+      "method": [
+        "Prepare the vegetables before handling the chicken. Heat the oven to 200°C fan / 220°C conventional. Put the thighs on a lined roasting tray in one layer.",
+        "Mix the garlic, Cajun seasoning and 1 tbsp of the oil. Coat the thighs evenly. Keep Barney’s portion mild by using less Cajun seasoning on it; season the adult portions separately.",
+        "Roast for about 25–30 minutes, turning once if needed, until browned and the thickest part reaches 75°C for 30 seconds. Thickness affects cooking time: check rather than relying on the timer. Rest for 5 minutes, then slice across the grain.",
+        "While the chicken roasts, cook the rice using the water quantity and time on its packet. Rest covered off the heat for 5 minutes, fluff with a fork, then stir in the zest of 1 lime and lime juice to taste.",
+        "Heat the remaining 1 tbsp oil in a wide frying pan over medium-high heat. Fry the pepper strips and onion wedges for 8–10 minutes, stirring occasionally so they colour rather than steam. Cook the sweetcorn according to its packet, then add to the pan and fry for 3–5 minutes until lightly charred.",
+        "Mix the diced tomatoes and avocado gently with the juice of 1 lime. Taste the adult salsa and adjust with lime and seasoning; keep it chilled until serving.",
+        "Serve sliced chicken with rice, smoky vegetables and salsa. Cut Barney’s cooked chicken and vegetables into suitable small pieces. Reserve the planned lunch portions with all components, packing salsa separately. Cool rice quickly, ideally within 1 hour, refrigerate and use within 24 hours."
+      ],
+      "originalIngredients": [
+        "Boneless chicken thighs 850g",
+        "White rice 320g dry",
+        "Bell peppers 3",
+        "Frozen sweetcorn 300g",
+        "Red onion 1",
+        "Tomatoes 250g",
+        "Avocados 2",
+        "Limes 3",
+        "Garlic 3 cloves",
+        "Cajun seasoning 3 tbsp",
+        "Olive oil 2 tbsp"
+      ],
+      "originalMethod": [
+        "Coat chicken with Cajun seasoning, garlic and oil; sear or roast until deeply coloured and cooked through.",
+        "Cook rice; finish with lime zest and juice.",
+        "Char peppers, onion and sweetcorn until smoky.",
+        "Combine tomato, avocado and lime for salsa. Serve every portion with chicken, rice, vegetables and salsa."
+      ]
+    },
+    {
+      "id": "e0a39bf4-1be9-4c8a-8da2-fd1e49758c49",
+      "key": "mon-lunch",
+      "title": "Crispy chicken Caesar-style wraps",
+      "ingredients": [
+        "Chicken breast 300g — slice horizontally into thinner cutlets if very thick",
+        "Large wraps 2",
+        "Romaine lettuce 1 small — wash, dry and shred into 1cm strips",
+        "Parmesan 40g — finely grate",
+        "Tomatoes 150g — dice into 1cm pieces",
+        "Lemon 1 — juice",
+        "Mustard 1 tsp",
+        "Mayonnaise 30g"
+      ],
+      "method": [
+        "Prepare the lettuce, tomatoes and Parmesan first. On a separate board, slice thick chicken breasts horizontally into thinner cutlets so they cook evenly.",
+        "Heat a non-stick frying pan over medium heat. Season the adult chicken and cook for roughly 5–7 minutes each side, depending on thickness. Check the centre reaches 75°C for 30 seconds; add a splash of water and cover briefly if it is browning too fast.",
+        "Rest the chicken for 5 minutes, then cut across the grain into thin strips.",
+        "Mix mayonnaise, mustard and 1–2 tbsp lemon juice. Taste and add more lemon or black pepper as needed. Toss the shredded lettuce with Parmesan and enough dressing to coat lightly.",
+        "Warm the wraps briefly to make them flexible. Divide chicken, dressed lettuce and diced tomato between them, fold in the sides and roll. If packing for later, cool chicken promptly and keep the wraps refrigerated; pack wet ingredients separately if you want the wraps to stay crisp."
+      ],
+      "originalIngredients": [
+        "Chicken breast 300g",
+        "Large wraps 2",
+        "Romaine lettuce 1 small",
+        "Parmesan 40g",
+        "Tomatoes 150g",
+        "Lemon 1",
+        "Mustard 1 tsp",
+        "Mayonnaise 30g"
+      ],
+      "originalMethod": [
+        "Season and pan-fry the chicken until cooked through; rest and slice.",
+        "Mix lemon, mustard and mayonnaise; toss with chopped lettuce and Parmesan.",
+        "Fill wraps with chicken, salad, tomatoes and dressing."
+      ]
+    },
+    {
+      "id": "fd2fd782-e9b9-4997-b281-7051b1024070",
+      "key": "sat-dinner",
+      "title": "Pork souvlaki-style skewers with roast peppers, potatoes, tzatziki & salad",
+      "ingredients": [
+        "Pork loin 1.1kg — trim and cut into even 2.5cm cubes",
+        "Baby potatoes 1.3kg — halve small potatoes; quarter larger ones to about 3cm",
+        "Bell peppers 4 — deseed and cut into broad 3cm pieces",
+        "Tomatoes 450g — dice into 1–2cm pieces",
+        "Cucumber 2 — wash; grate half for tzatziki and dice the rest",
+        "Red onions 2 — peel, halve and slice thinly",
+        "Greek yoghurt 450g",
+        "Lemons 4 — zest and juice as needed; reserve wedges",
+        "Garlic 6 cloves — peel and finely grate or crush",
+        "Dried oregano 3.5 tbsp",
+        "Salad leaves 2 bags — wash and dry",
+        "Olive oil 3.5 tbsp"
+      ],
+      "method": [
+        "Cut the pork into even cubes. Mix half the garlic with the oregano, zest of 1 lemon, juice of 2 lemons and about half the olive oil. Coat the pork and refrigerate for 20–30 minutes while preparing the vegetables. Soak wooden skewers in water for 30 minutes, or use metal skewers.",
+        "Heat the oven to 200°C fan / 220°C conventional. Toss potatoes with most of the remaining oil and spread over two trays if needed. Roast for 25 minutes, turning once.",
+        "Add the broad pepper pieces to the potato trays, spreading everything in one layer. Roast for another 20–25 minutes until the potatoes are tender inside and browned outside and the peppers have softened.",
+        "Thread the pork loosely onto skewers. Cook under a preheated medium-high grill for about 12–18 minutes, turning every 3–4 minutes. Keep the tray below the grill so the marinade does not burn. Cook in batches if necessary; check the centre of the thickest piece reaches 75°C for 30 seconds, then rest for 5 minutes.",
+        "Meanwhile, grate half the cucumber, squeeze out its water and mix with the yoghurt. Add the remaining garlic gradually, lemon juice to taste and a little seasoning for adults. Keep chilled.",
+        "Mix the diced tomatoes, remaining cucumber, sliced red onions and leaves. Dress with lemon juice and the last little oil just before serving.",
+        "Serve pork off the skewers with potatoes, peppers, tzatziki and salad. Cut Barney’s meat into tender suitable pieces. Reserve the planned lunch portions from this enlarged batch; keep salad and tzatziki separate from cooked pork and vegetables. Cool cooked portions promptly, refrigerate within 2 hours and reheat once until steaming throughout."
+      ],
+      "originalIngredients": [
+        "Pork loin 1.1kg",
+        "Baby potatoes 1.3kg",
+        "Bell peppers 4",
+        "Tomatoes 450g",
+        "Cucumber 2",
+        "Red onions 2",
+        "Greek yoghurt 450g",
+        "Lemons 4",
+        "Garlic 6 cloves",
+        "Dried oregano 3.5 tbsp",
+        "Salad leaves 2 bags",
+        "Olive oil 3.5 tbsp"
+      ],
+      "originalMethod": [
+        "Marinate pork with lemon, garlic, oregano and oil; thread onto skewers.",
+        "Roast potatoes and peppers until browned; grill or roast pork until cooked and caramelised.",
+        "Grate half the cucumber into yoghurt with lemon and garlic for tzatziki.",
+        "Make a tomato, remaining cucumber, red onion and leaf salad; serve together."
+      ]
+    },
+    {
+      "id": "fad6eb51-cc80-47b3-94af-37768cad2a62",
+      "key": "sat-lunch",
+      "title": "Fish-finger brioche buns with kimchi sesame-mustard mayo",
+      "ingredients": [
+        "Brioche buns 2 from stock — split horizontally",
+        "Fish fingers 6 from stock — cook from frozen according to packet",
+        "Kimchi 80g from stock — drain excess liquid and roughly chop",
+        "Mayonnaise 40g",
+        "Mustard 1 tsp from stock",
+        "Sesame seeds 1 tsp from stock"
+      ],
+      "method": [
+        "Cook the fish fingers from frozen using the oven or air-fryer temperature and time on their packet. Turn if instructed and check they are steaming hot in the middle and crisp outside.",
+        "Drain the kimchi so the buns do not become soggy, then roughly chop.",
+        "Mix mayonnaise, mustard and sesame seeds. Taste before adding anything else; the kimchi supplies salt and acidity.",
+        "Split the brioche buns and toast the cut sides in a dry pan for 1–2 minutes until lightly golden.",
+        "Spread sauce on the buns, add fish fingers and kimchi, then close and serve straight away."
+      ],
+      "originalIngredients": [
+        "Brioche buns 2 from stock",
+        "Fish fingers 6 from stock",
+        "Kimchi 80g from stock",
+        "Mayonnaise 40g",
+        "Mustard 1 tsp from stock",
+        "Sesame seeds 1 tsp from stock"
+      ],
+      "originalMethod": [
+        "Cook fish fingers until crisp.",
+        "Mix mayonnaise with mustard and sesame.",
+        "Fill brioche buns with fish fingers, kimchi and sauce."
+      ]
+    },
+    {
+      "id": "0743bc2b-c055-4f67-bf52-2284dcfb0eff",
+      "key": "sun-dinner",
+      "title": "Slow-cooked Persian-style lamb & aubergine stew with spinach and rice",
+      "ingredients": [
+        "Diced lamb 650g — trim and cut any large pieces into even 3cm cubes",
+        "Aubergines 2 — trim and cut into roughly 2.5cm chunks",
+        "Tinned tomatoes 1 x 400g from stock",
+        "Spinach 200g — wash; roughly chop large leaves",
+        "Onions 2 — peel and dice into about 1cm pieces",
+        "Garlic 4 cloves — peel and finely chop",
+        "White rice 220g dry from stock — rinse under cold water",
+        "Fresh parsley 30g — pick leaves and finely chop",
+        "Fresh coriander 30g — roughly chop leaves and tender stems",
+        "Lemon 1 — juice; reserve wedges",
+        "Ground cumin 2 tsp",
+        "Ground cinnamon 1 tsp",
+        "Ground turmeric 1 tsp",
+        "Ground coriander 2 tsp",
+        "Olive oil 2 tbsp"
+      ],
+      "method": [
+        "Prepare onions, garlic and aubergine. Heat the oven to 150°C fan / 170°C conventional. Pat the lamb dry; use a heavy casserole with a lid.",
+        "Heat 1 tbsp oil over medium-high heat. Brown the lamb in two or three batches for 3–4 minutes each, leaving space between pieces. Transfer to a plate.",
+        "Add the remaining oil and cook the aubergine in batches for 5–7 minutes until browned on several sides. Transfer to a plate. Reduce the heat and soften the onions for 8–10 minutes, adding a splash of water if they catch.",
+        "Add garlic and the cumin, cinnamon, turmeric and coriander; stir for 1 minute. Return lamb and aubergine, add the tomatoes and about 300ml water. Scrape up the browned bits. The liquid should nearly reach the meat; add a little more water if needed.",
+        "Bring to a gentle simmer, cover and cook in the oven for about 2–2½ hours, stirring once halfway. The lamb should pull apart easily with a fork and the aubergine should be soft. If needed, cook longer; add small splashes of water to prevent drying.",
+        "If the sauce is too loose, remove the lid and simmer on the hob for 10–15 minutes. Stir in the spinach for 2–3 minutes until wilted. Add lemon juice gradually and taste the adult seasoning.",
+        "Near the end of the stew’s cooking time, cook the rice following its packet and rest covered for 5 minutes. Finish the stew with parsley and coriander and serve with rice. Cut Barney’s tender lamb suitably and allow his serving to cool."
+      ],
+      "originalIngredients": [
+        "Diced lamb 650g",
+        "Aubergines 2",
+        "Tinned tomatoes 1 x 400g from stock",
+        "Spinach 200g",
+        "Onions 2",
+        "Garlic 4 cloves",
+        "White rice 220g dry from stock",
+        "Fresh parsley 30g",
+        "Fresh coriander 30g",
+        "Lemon 1",
+        "Ground cumin 2 tsp",
+        "Ground cinnamon 1 tsp",
+        "Ground turmeric 1 tsp",
+        "Ground coriander 2 tsp",
+        "Olive oil 2 tbsp"
+      ],
+      "originalMethod": [
+        "Brown lamb well, then soften onions and garlic with the spices.",
+        "Add aubergine and tinned tomatoes with enough water or stock to braise; cook slowly until lamb is tender and sauce rich.",
+        "Fold spinach through at the end and adjust with lemon.",
+        "Cook rice; finish stew with fresh herbs and serve."
+      ]
+    },
+    {
+      "id": "fed15c7f-1be9-4746-b026-83244a9fa7b5",
+      "key": "sun-lunch",
+      "title": "Roasted squash, feta & walnut couscous salad",
+      "ingredients": [
+        "Butternut squash 1 medium — peel, remove seeds and cut into even 2cm cubes",
+        "Couscous 180g from stock — measure dry; follow packet water quantity",
+        "Feta 150g — crumble",
+        "Walnuts 50g from stock — roughly chop for adults; omit pieces from Barney’s serving",
+        "Salad leaves 1 bag — wash and dry",
+        "Lemon 1 — juice",
+        "Mustard 1 tsp from stock",
+        "Olive oil 2 tbsp"
+      ],
+      "method": [
+        "Heat the oven to 200°C fan / 220°C conventional. Peel the squash, remove seeds and cut into even 2cm cubes. Toss with 1 tbsp oil and spread in one layer on a roasting tray.",
+        "Roast for about 25–35 minutes, turning after 15 minutes, until browned at the edges and easily pierced with a fork. Allow to cool for 5 minutes.",
+        "Put the couscous in a heatproof bowl and add the boiling-water quantity specified on its packet. Cover for the packet’s recommended time, usually 5–10 minutes, then fluff thoroughly with a fork.",
+        "Whisk the remaining 1 tbsp oil with mustard and 1–2 tbsp lemon juice. Taste and adjust the lemon before dressing the salad.",
+        "Toss warm squash and couscous with the dressing, then gently fold through leaves and crumbled feta. Add roughly chopped walnuts to the adult portions just before serving.",
+        "Serve Barney soft squash, couscous and crumbled feta without walnut pieces. If keeping any portions, cool promptly, refrigerate within 2 hours and keep leaves separate where possible."
+      ],
+      "originalIngredients": [
+        "Butternut squash 1 medium",
+        "Couscous 180g from stock",
+        "Feta 150g",
+        "Walnuts 50g from stock",
+        "Salad leaves 1 bag",
+        "Lemon 1",
+        "Mustard 1 tsp from stock",
+        "Olive oil 2 tbsp"
+      ],
+      "originalMethod": [
+        "Roast squash until caramelised.",
+        "Prepare couscous and cool slightly.",
+        "Toss with leaves, feta and walnuts; dress with lemon, mustard and olive oil."
+      ]
+    },
+    {
+      "id": "2d060cb7-7f3c-4e9e-b29d-12ec7d4b4caf",
+      "key": "thu-dinner",
+      "title": "Gochujang beef noodles with pak choi, mushrooms & carrot",
+      "ingredients": [
+        "Beef mince 750g",
+        "Egg noodles 500g — check whether dried or ready-cooked; follow the packet",
+        "Pak choi 2 — wash, separate stems from leaves; cut stems into 1cm slices and leaves into broad strips",
+        "Mushrooms 300g — wipe clean and slice about 5mm thick",
+        "Carrots 3 — peel and cut into thin matchsticks",
+        "Spring onions 4 from stock — trim and finely slice",
+        "Garlic 3 cloves — peel and finely grate or crush",
+        "Fresh ginger 25g — peel and finely grate",
+        "Gochujang 80g",
+        "Soy sauce 3 tbsp",
+        "Rice vinegar 2 tbsp",
+        "Honey 1 tbsp",
+        "Sesame seeds 2 tbsp from stock",
+        "Lime 1 — juice; reserve wedges if preferred"
+      ],
+      "method": [
+        "Prepare all the vegetables and mix the sauce before heating the pan: stir the gochujang, soy sauce, rice vinegar and honey together with 3 tbsp water.",
+        "Cook dried noodles following the packet, then drain and briefly rinse so they do not stick. If using ready-cooked noodles, loosen them as the packet directs and add them later.",
+        "Heat a wide non-stick pan or wok over medium-high heat. Brown the beef in two batches if the pan is crowded, about 8–10 minutes total. Break it into small pieces and let moisture evaporate. Check it reaches 75°C for 30 seconds; drain excess fat, retaining a little in the pan.",
+        "Add the mushrooms and carrot matchsticks. Stir-fry for 5–7 minutes until the mushrooms have lost their water and the carrots are tender-crisp. Stir in garlic and ginger for 1 minute.",
+        "Add the pak choi stems and stir-fry for 2–3 minutes. Add the sauce, bring to a simmer, then add noodles and pak choi leaves.",
+        "Toss with tongs for 2–3 minutes until the noodles are hot and coated and the leaves have wilted. Add water 1 tbsp at a time if the sauce is too thick.",
+        "Finish with spring onions, sesame seeds and lime juice to taste. Divide into the four planned adult portions. Cool lunch portions promptly, refrigerate within 2 hours and reheat once until steaming hot, loosening with a little water."
+      ],
+      "originalIngredients": [
+        "Beef mince 750g",
+        "Egg noodles 500g",
+        "Pak choi 2",
+        "Mushrooms 300g",
+        "Carrots 3",
+        "Spring onions 4 from stock",
+        "Garlic 3 cloves",
+        "Fresh ginger 25g",
+        "Gochujang 80g",
+        "Soy sauce 3 tbsp",
+        "Rice vinegar 2 tbsp",
+        "Honey 1 tbsp",
+        "Sesame seeds 2 tbsp from stock",
+        "Lime 1"
+      ],
+      "originalMethod": [
+        "Brown beef hard in a wide pan.",
+        "Add mushrooms and carrot, then garlic and ginger; stir-fry until tender-crisp.",
+        "Mix gochujang, soy, vinegar and honey; toss through beef with cooked noodles and pak choi.",
+        "Finish with spring onion, sesame and lime. Divide immediately into four complete portions."
+      ]
+    },
+    {
+      "id": "afc31b35-e938-4956-b331-499baee86977",
+      "key": "tue-dinner",
+      "title": "Thai-style beef larb with rice & crunchy vegetables",
+      "ingredients": [
+        "Beef mince 750g",
+        "White rice 320g dry — rinse under cold water",
+        "Cucumber 1 — halve lengthways and cut into thin half-moons",
+        "Carrots 3 — peel and grate coarsely or cut into fine matchsticks",
+        "Red onion 1 — peel, halve and slice very thinly",
+        "Romaine lettuce 1 — wash, dry and shred",
+        "Spring onions 4 from stock — trim and finely slice",
+        "Fresh mint 30g — pick leaves and roughly chop",
+        "Fresh coriander 30g — roughly chop leaves and tender stems",
+        "Limes 3 — juice; reserve wedges for serving",
+        "Garlic 3 cloves — peel and finely grate or crush",
+        "Fresh ginger 25g — peel and finely grate",
+        "Fish sauce 3 tbsp",
+        "Soy sauce 2 tbsp",
+        "Brown sugar 1 tbsp"
+      ],
+      "method": [
+        "Prepare the salad vegetables and herbs before handling raw meat. Keep the cucumber, carrot, lettuce, red onion and herbs separate from the ingredients that will be cooked.",
+        "Cook the rice following its packet instructions. Rest covered for 5 minutes off the heat, then fluff.",
+        "Heat a large non-stick frying pan over medium-high heat. Add the beef in two batches if needed. Press it into the pan and leave for 2–3 minutes before breaking it up; cook for about 8–10 minutes in total until browned and cooked through. Drain excess fat if necessary, leaving a little to carry the flavour.",
+        "Add the crushed garlic and grated ginger. Stir for 1–2 minutes until fragrant. Check the mince is thoroughly cooked; a thermometer should read 75°C for 30 seconds.",
+        "Remove Barney’s lightly seasoned beef before adding the full sauce. Stir the fish sauce, soy sauce and sugar into the adult beef, then remove from the heat. Add the juice of 2 limes, taste and use the third to adjust: the result should be savoury and sharp, with only a little sweetness.",
+        "Divide rice, beef and all the vegetables between the planned servings. Finish adult portions with spring onions, mint and coriander. Finely cut or soften Barney’s vegetables as appropriate.",
+        "Pack lunch beef and rice separately from the cold salad and herbs. Cool rice quickly, ideally within 1 hour, refrigerate and use within 24 hours. Reheat the hot components once until steaming throughout, then add the chilled salad."
+      ],
+      "originalIngredients": [
+        "Beef mince 750g",
+        "White rice 320g dry",
+        "Cucumber 1",
+        "Carrots 3",
+        "Red onion 1",
+        "Romaine lettuce 1",
+        "Spring onions 4 from stock",
+        "Fresh mint 30g",
+        "Fresh coriander 30g",
+        "Limes 3",
+        "Garlic 3 cloves",
+        "Fresh ginger 25g",
+        "Fish sauce 3 tbsp",
+        "Soy sauce 2 tbsp",
+        "Brown sugar 1 tbsp"
+      ],
+      "originalMethod": [
+        "Cook the rice.",
+        "Brown beef hard for good colour; add garlic and ginger.",
+        "Season with fish sauce, soy, sugar and lime until salty, sharp and lightly sweet.",
+        "Serve with lettuce, cucumber, carrot, red onion, spring onion and herbs; allocate all components across dinner and lunch portions."
+      ]
+    },
+    {
+      "id": "72e42b9a-667f-43de-8a1b-589178db5c1d",
+      "key": "wed-dinner",
+      "title": "Creamy mustard chicken & leek pie with carrots and green beans",
+      "ingredients": [
+        "Chicken breast 850g — cut into roughly 2cm bite-size pieces",
+        "Leeks 3 — trim, split lengthways, rinse between the layers and slice into 5mm half-moons",
+        "Frozen peas 250g from stock — use from frozen",
+        "Puff pastry 1 x 320g sheet — keep chilled until needed",
+        "Crème fraîche 300ml — measure",
+        "Chicken stock 300ml",
+        "Mustard 2 tbsp from stock",
+        "Fresh tarragon 15g — strip leaves from stems and finely chop",
+        "Carrots 600g — peel and cut into 1cm-thick diagonal slices; halve thick pieces",
+        "Green beans 400g — trim ends; cut smaller for Barney after cooking",
+        "Egg 1 — beat for brushing; you may not need all of it"
+      ],
+      "method": [
+        "Heat the oven to 200°C fan / 220°C conventional. Prepare the leeks, tarragon, carrots and beans. Cut the chicken on a separate board. Keep the pastry refrigerated while making the filling.",
+        "Heat a wide non-stick pan over medium-high heat. Brown the chicken in two batches for 3–4 minutes each, using a splash of water if it starts sticking. Transfer to a plate; it will finish cooking in the filling.",
+        "Reduce to medium-low heat. Add the leeks with 2 tbsp water, cover and soften for 8–10 minutes, stirring occasionally. They should be soft, not browned.",
+        "Return the chicken to the pan. Add the stock, mustard and crème fraîche, bring to a gentle simmer and cook uncovered for 8–12 minutes, stirring. Add the frozen peas and cook for the packet’s recommended time. Stir in the tarragon. The filling should coat a spoon rather than look watery; simmer a little longer if necessary.",
+        "Taste and season the adult filling; keep Barney’s portion mildly seasoned. Put the filling into a baking dish and let it stop steaming strongly for 5–10 minutes so the pastry does not soften immediately.",
+        "Lay the pastry over the dish, trim if necessary and press onto the rim. Cut a small steam vent in the centre and brush lightly with beaten egg. Bake for 25–30 minutes until the top is risen and deeply golden and the centre is piping hot; check the chicken reaches 75°C for 30 seconds.",
+        "Meanwhile, spread the carrots on a lined tray, add a splash of water and cover with foil for 15 minutes. Uncover and roast for another 15–20 minutes until tender and lightly coloured. Steam the beans for 5–7 minutes until tender.",
+        "Rest the pie for 5 minutes. Divide pie, carrots and beans across the dinner and planned lunch allocations. Check Barney’s chicken and vegetables are soft and suitably cut. Cool the reserved portions promptly, refrigerate within 2 hours and reheat once until steaming throughout."
+      ],
+      "originalIngredients": [
+        "Chicken breast 850g",
+        "Leeks 3",
+        "Frozen peas 250g from stock",
+        "Puff pastry 1 x 320g sheet",
+        "Crème fraîche 300ml",
+        "Chicken stock 300ml",
+        "Mustard 2 tbsp from stock",
+        "Fresh tarragon 15g",
+        "Carrots 600g",
+        "Green beans 400g",
+        "Egg 1"
+      ],
+      "originalMethod": [
+        "Brown chicken, then soften sliced leeks.",
+        "Add stock, mustard, crème fraîche, peas and tarragon; simmer to a thick filling.",
+        "Transfer to a baking dish, top with pastry, brush with egg and bake until deeply golden.",
+        "Roast carrots and steam or sauté green beans. Divide pie and both vegetables across all five allocations."
+      ]
+    }
+  ]
+}
