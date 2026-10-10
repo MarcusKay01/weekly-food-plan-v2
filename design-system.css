@@ -4,3 +4,5 @@
 .meal-main:not(:has(>.complete)):not(:has(>.meal-static)){grid-template-columns:minmax(0,1fr)}
 .meal>.row:not(:has(.move-action)):not(:has(.reopen-action)):not(:has(.pill)){grid-template-columns:minmax(0,1fr)}
 .move-action{font-size:1.5rem;line-height:1;cursor:grab;touch-action:none}.move-action:active{cursor:grabbing}
+
+.day h3{position:relative;padding-bottom:12px;margin-bottom:12px}.day h3::after{content:'';position:absolute;left:0;bottom:0;width:56px;height:3px;background:var(--accent);border-radius:2px}

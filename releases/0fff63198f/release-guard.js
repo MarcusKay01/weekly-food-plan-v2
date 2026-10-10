@@ -1,0 +1,3 @@
+// Retire a cached legacy shell before new modules attach to it.
+export function shellIsCurrent(doc){return Boolean(doc.getElementById('dayStrip')&&doc.getElementById('accountEmail')&&doc.querySelector('script[src*="app.js"]'))}
+export function requireCurrentShell(){if(shellIsCurrent(document))return true;const url=new URL(location.href);if(url.hash)return false;url.searchParams.set('update','coherent-shell-20261010');if(location.search===url.search){const message=document.getElementById('moreContent')||document.getElementById('message');if(message)message.textContent='An older app page is still cached. Close this tab and reopen the planner to finish updating.';return false;}location.replace(url.href);return false}
