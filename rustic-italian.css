@@ -14,3 +14,4 @@ body .day h3 .day-drag-handle small{display:none!important}
 #period{display:block!important;color:var(--ink)!important;font-family:'Lora',serif!important;font-size:clamp(.88rem,3.4vw,1.08rem)!important;font-weight:600!important;white-space:nowrap}
 #todayWeek{display:inline-block!important;padding:2px 9px!important;background:transparent!important;border:0!important;color:var(--terra)!important;font-family:'Inter',sans-serif!important;font-size:.7rem!important;font-weight:500!important}
 .day-strip{margin-top:0!important}
+

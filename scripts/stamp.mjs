@@ -1,0 +1,4 @@
+import{readFileSync,writeFileSync,readdirSync}from'node:fs';import{createHash}from'node:crypto';
+const names=readdirSync('.').filter(p=>p.endsWith('.js')||p.endsWith('.css')||p==='index.html').sort();
+const hash=createHash('sha256').update(names.map(p=>readFileSync(p,'utf8').replace(/\?v=[^'"\s]+/g,'').replace(/food-plan-shell-[^']+/g,'food-plan-shell').replace(/content="(?:integrated-workflows|release)-[^"]+"/g,'content="release"')).join('\n')).digest('hex').slice(0,10),v='release-'+hash;
+for(const p of names){let s=readFileSync(p,'utf8');s=s.replace(/(['"])(\.\/?[^'"?]+\.(?:js|css))(?:\?v=[^'"]+)?\1/g,(all,q,path)=>q+path+'?v='+v+q);if(p==='index.html')s=s.replace(/content="(?:integrated-workflows|release)-[^"]+"/,'content="'+v+'"');if(p==='sw.js')s=s.replace(/food-plan-shell-[^']+/,'food-plan-shell-'+hash);writeFileSync(p,s)}console.log(v);
