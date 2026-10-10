@@ -11,3 +11,5 @@ test('scaling changes ingredient amounts only',()=>{assert.equal(scaledLabel('Ch
 test('avoid review checks recipe ingredient text',()=>assert.equal(ruleMatches({title:'Chicken rice',recipe_ingredients:['Tahini 1 tbsp']},[{subject:'Tahini',preference_type:'avoid'}]).length,1));
 
 test('storage wording follows actual lunch day',async()=>{const {scheduleNote}=await import('../shared.js');assert.equal(scheduleNote('Pack for Wednesday.',{id:'d',slot:'dinner'},[{lunch_package_dinner_id:'d',scheduled_date:'2026-10-06'}]),'Pack for Tuesday 6 Oct.');});
+
+test('legacy shell is rejected before settings attach',async()=>{const {shellIsCurrent}=await import('../release-guard.js');assert.equal(shellIsCurrent({getElementById:()=>null,querySelector:()=>null}),false);assert.equal(shellIsCurrent({getElementById:()=>({}),querySelector:()=>({})}),true)});
